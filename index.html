@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    
+    <div class="content">
+
+        <h1 class="logo">FORMULARIO</h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>FORMULARIO</h3>
+                <form action="submit">
+                    <p>
+                        <label>NOMBRES</label>
+                        <input type="text" name="first_name" placeholder="NOMBRES" pattern="[A-Za-z]{5, 50}" required autofocus>
+                    </p>
+					<p>
+                        <label>APELLIDOS</label>
+                        <input type="text" name="last_name" placeholder="APELLIDOS" pattern="[A-Za-z]{5, 50}" required autofocus>
+                    </p>
+                    <p>
+                        <label>EMAIL</label>
+                        <input type="email" name="email" placeholder="EMAIL O CORREO ELECTRONICO" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required autofocus>
+                    </p>
+                    <p>
+                        <label>TELEFONO O CELULAR</label>
+                        <input type="tel" name="phone" placeholder="TELEFONO O CELULAR" pattern="[0-9]+" required autofocus>
+                    </p>
+                    <p>
+                        <label>DIRECCION</label>
+                        <input type="text" name="direccition" placeholder="DIRECCION" pattern="[A-Za-z]{5, 50}" required autofocus>
+                    </p>
+					<p>
+                        <label>CONTRASEÑA</label>
+                        <input type="password" name="password" placeholder="CONTRASEÑA" pattern="[A-Za-z]{5, 50}" required autofocus>
+                    </p>
+						<li class="block" ><a href="indexlg.html">REGISTRAR</a></li>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

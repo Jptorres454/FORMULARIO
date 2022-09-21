@@ -1,0 +1,190 @@
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(27deg, #2D4059 50%, #222831 50%);
+    margin: 0;
+}
+
+header {
+    background: #2D4059;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+  
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #FF5722;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #222831;
+}
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #EEEEEE;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box li {
+  border: none;
+  outline: none;
+  height: 30px;
+  background:  #2D4059;
+  color: #FF5722;
+  font-size: 18px;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  color: #FF5722;
+  text-decoration: none;
+}
+
+.login-box li {
+  cursor: pointer;
+  background: #222831;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(169, 169, 169);
+}
+
+.login-box a:hover {
+  color: #FF5722;
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #FF5722;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #FF5722;
+}
